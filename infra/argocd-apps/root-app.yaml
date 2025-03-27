@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/dreamassasins/eks-gitops.git
     targetRevision: HEAD
-    path: apps/nginx
+    path: infra/argocd-apps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
