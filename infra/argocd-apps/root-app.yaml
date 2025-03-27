@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-username/eks-gitops.git
+    repoURL: https://github.com/dreamassasins/eks-gitops.git
     targetRevision: HEAD
     path: apps/nginx
   destination:
